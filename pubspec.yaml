@@ -1,0 +1,26 @@
+name: ordersystem
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.0.0-148.0.dev <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.5
+  get: ^4.6.5
+  google_fonts: ^4.0.1
+  hexcolor: ^3.0.1
+  badges: 3.0.2
+  http: 0.13.5
+  url_launcher: 6.1.8
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
