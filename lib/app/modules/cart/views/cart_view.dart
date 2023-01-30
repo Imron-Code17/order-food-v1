@@ -122,8 +122,6 @@ Widget printStruk(String pes, int totalPesanan) {
 
 Widget listPesanan(String namaMenu, String qtyMenu, String hargaMenu, int makan,
     int minum, int cemil) {
-  final controller = Get.put(HomeController());
-
   return Column(
     children: [
       Row(
